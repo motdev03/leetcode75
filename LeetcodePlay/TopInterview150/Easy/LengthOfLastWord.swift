@@ -35,7 +35,7 @@ import Foundation
  There will be at least one word in s.
  */
 
-extension RandomEasyProblems {
+extension TopInterview150 {
     func lenghtOfLastWord(_ string: String) -> Int {
         var lastWordLength = 0
         let stringArray = Array(string.trimmingCharacters(in: .whitespaces))

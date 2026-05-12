@@ -55,8 +55,11 @@
 		9FB9098C2DA8F8D000115C56 /* UniqueNumberOfOccurrences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9098B2DA8F8D000115C56 /* UniqueNumberOfOccurrences.swift */; };
 		9FB9098E2DAE291A00115C56 /* LongestSubarrayOf1sAfterDeleting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9098D2DAE291A00115C56 /* LongestSubarrayOf1sAfterDeleting.swift */; };
 		9FC70DCE2FACAB7E006C99B2 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC70DCD2FACAB7E006C99B2 /* LengthOfLastWord.swift */; };
-		9FC70DD02FACAC2D006C99B2 /* RandomEasyProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC70DCF2FACAC2D006C99B2 /* RandomEasyProblems.swift */; };
+		9FC70DD02FACAC2D006C99B2 /* TopInterview150.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC70DCF2FACAC2D006C99B2 /* TopInterview150.swift */; };
 		9FC70DD52FACAD8D006C99B2 /* RandomEasyProblemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC70DD42FACAD8D006C99B2 /* RandomEasyProblemsTests.swift */; };
+		9FC70DD72FB1E251006C99B2 /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC70DD62FB1E251006C99B2 /* MergeSortedArray.swift */; };
+		9FC70DD92FB2C064006C99B2 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC70DD82FB2C064006C99B2 /* MajorityElement.swift */; };
+		9FC70DDC2FB2C4A4006C99B2 /* Boyer-MooreVotingAlgorithm.md in Sources */ = {isa = PBXBuildFile; fileRef = 9FC70DDB2FB2C487006C99B2 /* Boyer-MooreVotingAlgorithm.md */; };
 		9FCAAFC42E154AFD0070CB8E /* EqualRowAndColumnPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCAAFC32E154AFD0070CB8E /* EqualRowAndColumnPairs.swift */; };
 		9FD29A8A2DE6A61D00BD896D /* DetermineStringsAreClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD29A892DE6A61D00BD896D /* DetermineStringsAreClose.swift */; };
 /* End PBXBuildFile section */
@@ -131,8 +134,11 @@
 		9FB9098B2DA8F8D000115C56 /* UniqueNumberOfOccurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueNumberOfOccurrences.swift; sourceTree = "<group>"; };
 		9FB9098D2DAE291A00115C56 /* LongestSubarrayOf1sAfterDeleting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubarrayOf1sAfterDeleting.swift; sourceTree = "<group>"; };
 		9FC70DCD2FACAB7E006C99B2 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
-		9FC70DCF2FACAC2D006C99B2 /* RandomEasyProblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomEasyProblems.swift; sourceTree = "<group>"; };
+		9FC70DCF2FACAC2D006C99B2 /* TopInterview150.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopInterview150.swift; sourceTree = "<group>"; };
 		9FC70DD42FACAD8D006C99B2 /* RandomEasyProblemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomEasyProblemsTests.swift; sourceTree = "<group>"; };
+		9FC70DD62FB1E251006C99B2 /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
+		9FC70DD82FB2C064006C99B2 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
+		9FC70DDB2FB2C487006C99B2 /* Boyer-MooreVotingAlgorithm.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Boyer-MooreVotingAlgorithm.md"; sourceTree = "<group>"; };
 		9FCAAFC32E154AFD0070CB8E /* EqualRowAndColumnPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualRowAndColumnPairs.swift; sourceTree = "<group>"; };
 		9FD29A892DE6A61D00BD896D /* DetermineStringsAreClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetermineStringsAreClose.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,6 +263,7 @@
 		2B57216F2B5BDB0800DDBE35 /* LeetcodePlay */ = {
 			isa = PBXGroup;
 			children = (
+				9FC70DDA2FB2C479006C99B2 /* FamousAlgorithms */,
 				9FC70DCC2FACAB5A006C99B2 /* TopInterview150 */,
 				2B1B30312CA99479002B7E31 /* InterviewPrep */,
 				2B1B302A2CA7E720002B7E31 /* LinkedList */,
@@ -411,7 +418,9 @@
 			isa = PBXGroup;
 			children = (
 				9FC70DCD2FACAB7E006C99B2 /* LengthOfLastWord.swift */,
-				9FC70DCF2FACAC2D006C99B2 /* RandomEasyProblems.swift */,
+				9FC70DCF2FACAC2D006C99B2 /* TopInterview150.swift */,
+				9FC70DD62FB1E251006C99B2 /* MergeSortedArray.swift */,
+				9FC70DD82FB2C064006C99B2 /* MajorityElement.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -430,6 +439,14 @@
 				9FC70DD42FACAD8D006C99B2 /* RandomEasyProblemsTests.swift */,
 			);
 			path = Easy;
+			sourceTree = "<group>";
+		};
+		9FC70DDA2FB2C479006C99B2 /* FamousAlgorithms */ = {
+			isa = PBXGroup;
+			children = (
+				9FC70DDB2FB2C487006C99B2 /* Boyer-MooreVotingAlgorithm.md */,
+			);
+			path = FamousAlgorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -564,8 +581,10 @@
 			files = (
 				2B1B30332CA99493002B7E31 /* ArrayRelated.swift in Sources */,
 				2BC0EE662BF503E300311160 /* MoveZeroes.swift in Sources */,
-				9FC70DD02FACAC2D006C99B2 /* RandomEasyProblems.swift in Sources */,
+				9FC70DD72FB1E251006C99B2 /* MergeSortedArray.swift in Sources */,
+				9FC70DD02FACAC2D006C99B2 /* TopInterview150.swift in Sources */,
 				9F37DBDE2DF1169E001159D8 /* AsteriodCollision.swift in Sources */,
+				9FC70DD92FB2C064006C99B2 /* MajorityElement.swift in Sources */,
 				2B1B302C2CA7E735002B7E31 /* DeleteMiddleNode.swift in Sources */,
 				9FB9098E2DAE291A00115C56 /* LongestSubarrayOf1sAfterDeleting.swift in Sources */,
 				2B0231CD2C2B315300A19C67 /* MaxNumKSumPairs.swift in Sources */,
@@ -579,6 +598,7 @@
 				2B1B30302CA81AA1002B7E31 /* ReverseLinkedList.swift in Sources */,
 				2BB8914D2C94853300B4F16A /* RemovingStarsFromString.swift in Sources */,
 				2B0231CB2C2B27CA00A19C67 /* MaxNumVowelsInSubstring.swift in Sources */,
+				9FC70DDC2FB2C4A4006C99B2 /* Boyer-MooreVotingAlgorithm.md in Sources */,
 				9FCAAFC42E154AFD0070CB8E /* EqualRowAndColumnPairs.swift in Sources */,
 				9FD29A8A2DE6A61D00BD896D /* DetermineStringsAreClose.swift in Sources */,
 				9FB9098C2DA8F8D000115C56 /* UniqueNumberOfOccurrences.swift in Sources */,

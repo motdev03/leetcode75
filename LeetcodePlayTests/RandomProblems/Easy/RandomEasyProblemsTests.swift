@@ -10,11 +10,11 @@ import XCTest
 
 final class RandomEasyProblemsTests: XCTestCase {
     
-    var sut: RandomEasyProblems!
+    var sut: TopInterview150!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        sut = RandomEasyProblems()
+        sut = TopInterview150()
     }
 
     override func tearDownWithError() throws {
@@ -48,5 +48,19 @@ final class RandomEasyProblemsTests: XCTestCase {
         XCTAssertEqual(sut.lengthOfLastWordOptimised("   fly me   to   the moon  "), 4)
         XCTAssertEqual(sut.lengthOfLastWordOptimised("luffy is still joyboy"), 6)
         XCTAssertEqual(sut.lengthOfLastWordOptimised("Today is a nice day"), 3)
+    }
+    
+    func testMergeSortedArray() {
+        var test1: [Int] = [1,2,3,0,0,0]
+        sut.merge(&test1, 3, [2,5,6], 3)
+        XCTAssertEqual(test1, [1,2,2,3,5,6])
+        
+        var test2: [Int] = [1,4,5,0,0,0]
+        sut.merge(&test2, 3, [-2,-1,6], 3)
+        XCTAssertEqual(test2, [-2,-1,1,4,5,6])
+        
+        var test3: [Int] = [1,4,5,0,0,0]
+        sut.merge(&test3, 3, [0,2,6], 3)
+        XCTAssertEqual(test3, [0,1,2,4,5,6])
     }
 }

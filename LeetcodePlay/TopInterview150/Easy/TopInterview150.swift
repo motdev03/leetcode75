@@ -7,6 +7,6 @@
 
 import Foundation
 
-class RandomEasyProblems {
+class TopInterview150 {
     //
 }
